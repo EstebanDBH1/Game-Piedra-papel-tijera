@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Piedra Papel o tijeras</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    
+  <header>
+    <h1>Piedra Papel o Tijera: Game</h1>
+   
+  </header>
+ 
+ <p class="instrucciones">
+   Intenta hacer 5 puntos para ganar el juego.
+ </p>
+ 
+ 
+  <main>
+    <div class="mensajeWin">
+      <p class="mensaje_win"></p>
+    </div>
+  
+    <div class="marcador">  
+      <p>
+        Puntos: <br>
+   <span>Jugador:</span>
+   <span id="puntos_jugador">0</span>
+   <br>
+   <span>PC:</span>
+   <span id="puntos_pc">0</span>
+      </p>
+    </div>
+    
+   <div class="botones">
+     <p id="escoge_arma">Escoge tu arma</p>
+     <button id="piedra"><i class="fa-regular fa-hand-back-fist"></i></button>
+     <button id="papel"><i class="fa-regular fa-hand"></i></button>
+     <button id="tijera"><i class="fa-regular fa-hand-scissors"></i></button>
+   </div>
+    
+    
+   <div class="Eleccion">
+     <p>
+       Elegiste <span id="eleccion_jugador">Piedra</span> <br> <br>
+       y PC eligió <span id="eleccion_pc">Papel</span>
+     </p>
+   </div>
+    
+    
+    <div class="boton_reiniciar">
+      <p id="btn_reiniciar">Play again</p>
+    </div>
+  </main>
+  
+  </div>
+  <!--JavaScript-->
+  <script src="codigo.js"></script>
+</body>
+</html>
