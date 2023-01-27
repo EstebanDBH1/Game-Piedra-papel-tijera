@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300&family=M+PLUS+Rounded+1c:wght@300;400&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,600&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Unbounded:wght@200;300;400;500&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: tan;
+}
+
+header {
+  padding: 30px;
+}
+.container {
+  text-align: center;
+}
+
+.instrucciones {
+  font-weight: bold;
+}
+
+header {
+  background-color: teal;
+  color: white;
+}
+
+.fa-face-sad-tear{
+    font-size: 25px;
+    color: rgb(231, 107, 107);
+}
+
+.happy{
+    font-size: 25px;
+    color: cadetblue;
+}
+
+.marcador {
+  border: solid 1px;
+  width: 200px;
+  margin: 20px auto;
+  background-color: purple;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+#escoge_arma{
+    margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.botones {
+  border: solid 1px transparent;
+}
+
+#piedra {
+  color: brown;
+  border: solid 2px transparent;
+  transition: transform 0.3s ease-in-out;
+}
+#papel {
+  color: orange;
+  border: solid 2px transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+#tijera {
+  color: darkcyan;
+  border: solid 2px transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+#piedra:hover {
+  border: solid 2px brown;
+  transform: scale(1.1);
+}
+
+#papel:hover {
+  border: solid 2px orange;
+  transform: scale(1.1);
+}
+
+#tijera:hover {
+  border: solid 2px darkcyan;
+  transform: scale(1.1);
+}
+
+.boton_reiniciar {
+  background-color: violet;
+  width: 200px;
+  margin: 10px auto;
+  padding: 4px 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  display: none;
+  margin-top: 15px;
+  box-shadow: 10px 5px 1px black;
+}
+
+.boton_reiniciar:hover{
+    box-shadow: 0 0 0 0;
+}
+
+
+
+.Eleccion {
+  margin-top: 20px;
+  display: none;
+}
+
+#eleccion_jugador {
+  padding: 2px 7px;
+  background-color: olive;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+
+#eleccion_pc {
+  padding: 2px 7px;
+  background-color: olive;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.mensajeWin {
+  margin-top: 10px;
+}
